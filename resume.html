@@ -1,42 +1,112 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <meta name="description" content="Giulia Shelton's education, professional experience, and developing technical skills.">
+    <title>Resume &amp; Skills | Giulia Shelton</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-        <h1>Resume</h1>
+        <p class="eyebrow">MY EXPERIENCE</p>
+        <h1>Resume &amp; Skills</h1>
+        <p class="tagline">The experience and knowledge I'm building.</p>
     </header>
 
-    <nav>
+    <nav aria-label="Main navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="projects.html">projects</a></li>
-            <li><a href="resume.html">resume</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html" aria-current="page">Resume &amp; Skills</a></li>
         </ul>
     </nav>
 
     <main>
-        <section>
+        <section class="hero">
+            <h2>Professional Profile</h2>
+            <p>
+                I'm a computer science and engineering student
+                developing my technical abilities alongside
+                professional experience in shift management.
+                I'm interested in opportunities that allow me
+                to keep learning and contribute to technology projects.
+            </p>
+        </section>
+
+        <section class="content-section">
             <h2>Education</h2>
+            <article class="card">
+                <h3>Arizona State University Online</h3>
+                <p><strong>Program:</strong> Bachelor's in Computer Science and Engineering</p>
+                <p>
+                    Relevant learning areas include web development,
+                    programming, problem-solving, and computer systems.
+                </p>
+            </article>
         </section>
 
-        <section>
-            <h2>Experience</h2>
+        <section class="content-section">
+            <h2>Professional Experience</h2>
+            <article class="card">
+                <h3>Shift Manager</h3>
+                <p><strong>Retail and Operations</strong></p>
+                <ul>
+                    <li>Support daily operations and team coordination.</li>
+                    <li>Communicate with team members to solve problems.</li>
+                    <li>Help maintain organized workflows and service standards.</li>
+                    <li>Build leadership, time management, and customer service skills.</li>
+                </ul>
+            </article>
         </section>
 
-        <section>
-            <h2>Tech</h2>
+        <section class="content-section">
+            <h2>Technical Skills</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Web Development</h3>
+                    <p>
+                        Previous full-stack development experience,
+                        HTML, CSS, website structure, and responsive design.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Development Tools</h3>
+                    <p>
+                        VS Code, Git Bash, and foundational Git
+                        workflow practice.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Currently Learning</h3>
+                    <p>
+                        Cybersecurity fundamentals, Linux commands,
+                        and continued programming practice.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section callout">
+            <h2>Connect With Me</h2>
+            <p>
+                I'm interested in continuing to grow my skills
+                and connecting with people in technology.
+            </p>
+            <a href="mailto:YOUR_EMAIL@example.com">Email Me</a>
+            <p class="small-note">
+                Replace the sample email address with your actual
+                professional email before publishing.
+            </p>
         </section>
     </main>
 
     <footer>
-        <p>Built by Giulia Shelton</p>
+        <p>&copy; 2026 Giulia Shelton | Personal Portfolio</p>
     </footer>
-
 </body>
 </html>
