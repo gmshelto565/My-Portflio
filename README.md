@@ -36,7 +36,7 @@ creativity with a professional presentation of my goals in technology.
 
 ## Published Website
 
-GitHub Pages URL: 
+GitHub Pages URL: https://gmshelto565.github.io/My-Portflio/resume.html
 
 ## Author
 
