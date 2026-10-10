@@ -1,39 +1,87 @@
-<!--
-Author: Giulia Shelton
-Code-Along: Portfolio Website
--->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Portfolio</title>
+    <meta name="description" content="Giulia Shelton's personal portfolio showcasing web development, technology, and professional goals.">
+    <title>Home | Giulia Shelton</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
     <header>
-        <h1>My First Portfolio</h1>
-        <p>Academic. Entrepreneur. Advocate.</p>
+        <p class="eyebrow">TECHNOLOGY • CREATIVITY • GROWTH</p>
+        <h1>Giulia Shelton</h1>
+        <p class="tagline">Building my future in technology, one project at a time.</p>
     </header>
 
-    <nav>
+    <nav aria-label="Main navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume &amp; Skills</a></li>
         </ul>
     </nav>
 
     <main>
+        <section class="hero">
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+            <h2>Creative thinking meets technology.</h2>
+            <p>
+                Hi, I'm Giulia! I'm a student working toward a future
+                in computer science and engineering. I enjoy learning
+                how websites work, solving problems, and finding ways
+                to make technology useful and accessible.
+            </p>
+            <p>
+                I'm building my skills in web development while
+                continuing to explore the many opportunities in tech.
+            </p>
+            <a class="button" href="projects.html">Explore My Projects</a>
+        </section>
+
+        <section class="content-section">
+            <h2>What I'm Interested In</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Web Development</h3>
+                    <p>
+                        Creating websites with HTML and CSS and
+                        continuing to develop my coding skills.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Cybersecurity</h3>
+                    <p>
+                        Learning about online safety, security
+                        fundamentals, and protecting digital information.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Women in Technology</h3>
+                    <p>
+                        Growing as a woman in a male-dominated field
+                        and encouraging more women to explore technology.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section callout">
+            <h2>Get to Know Me</h2>
+            <p>
+                Learn more about my background, explore my work,
+                and see the skills I'm developing for my future career.
+            </p>
+            <a href="about.html">Read About Me</a>
+        </section>
     </main>
 
     <footer>
-        <p>Built by Giulia Shelton</p>
+        <p>&copy; 2026 Giulia Shelton | Personal Portfolio</p>
     </footer>
-
 </body>
 </html>
